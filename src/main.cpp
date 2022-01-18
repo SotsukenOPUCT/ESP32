@@ -2,7 +2,6 @@
 
 #include <Arduino.h>
 #include <WiFi.h>
-//#include <ESP8266WiFi.h>
 #include "ThingSpeak.h"
 
 
@@ -93,6 +92,7 @@ void loop(){
     
 
     // For debug
+    /*
     if(serial_result){
       Serial.println("RAW: " + serial_data);
       Serial.print("Split: ");
@@ -109,7 +109,9 @@ void loop(){
       }
       Serial.print("ThingSpeak: ");
       Serial.println(ThingSpeak_result);
+      
     }
+    */
   }
   
   twelite_command();
