@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Sotsuken_ESP8266",
+			"path": "../../../Documents/PlatformIO/Projects/Sotsuken_ESP8266"
+		}
+	],
+	"settings": {}
+}
